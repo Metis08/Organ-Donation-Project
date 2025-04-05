@@ -167,6 +167,59 @@ h6 {
     flex-shrink: 0;
     margin-right: 20px;
 }
+.carousel-box {
+    flex: 0 0 auto;
+    width: 220px; /* or whatever size you want */
+    height: 150px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.carousel-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* this is key */
+    display: block;
+}
+.carousel-box {
+    width: 30vw;
+    height: 20vw;
+}
+.hero-content h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.hero-content {
+    margin-bottom: 4rem; /* ⬅️ Try increasing this to 3rem or more if needed */
+}
+.buttons {
+    margin-top: 2rem; /* ⬅️ Increase this for more space */
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 1.2rem 2.5rem;  /* ⬆️ Bigger button */
+    font-size: 1.3rem;       /* ⬆️ Bigger text */
+    border: none;
+    border-radius: 9999px;   /* Optional: pill shape */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn.secondary {
+    background-color: #62e6b4;
+    color: #000;
+}
+
+.btn.primary {
+    background-color: #c6e700;
+    color: #000;
+}
 
 
 #about-us {
